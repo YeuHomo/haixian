@@ -1,0 +1,182 @@
+@import "../../../assets/css/reset.css";
+@import "../../../assets/css/common";
+.brand {
+    height:723px;
+    margin-bottom: 124px;
+    position: relative;
+    max-width: 1920px;
+    overflow: hidden;
+    min-width: 1570px;
+    .banner-txt {
+        position: absolute;
+        z-index: 1;
+        top: 99px;
+        width: 100%;
+        padding: 0 50px;
+        top: 200px;
+    }
+    .brand-txt {
+        color: white;
+        .english {
+            font-family: eg_number;
+            font-size: 73.58px;
+        }
+        .chinese {
+            font-family: FangSong;
+            font-size: 32.86px;
+        }
+    }
+}
+.introduce {
+    padding: 0 50px;
+    .ma {
+        overflow: hidden;
+        padding-bottom: 110px;
+        .introduce-btns {
+            width: 675px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+            margin-bottom: 90px;
+            .btn {
+                height: 54px;
+                width: 203px;
+                line-height: 54px;
+                text-align: center;
+                cursor: pointer;
+                font-size: 35px;
+                color: #040000;
+                &.active {
+                    line-height: 50px;
+                    border-radius: 27px;
+                    border: 2px solid #539595;
+                }
+                img {
+                    vertical-align: text-bottom;
+                }
+            }
+        }
+        .all-summary {
+            width: 100000px;
+        }
+        .summary {
+            width: 1470px;
+            float: left;
+            opacity: 0;
+            transition: transform 300ms ease;
+            max-height: 0;
+        }
+        .brand-summary {
+            transform: translateX(-100%);
+            &.active {
+                opacity: 1;
+                transform: translateX(0);
+                max-height: 10000px;
+            }
+            .title {
+                color: #231815;
+                font-family: FangSong;
+                font-size: 46.72px;
+                text-align: center;
+                margin-bottom: 70px;
+            }
+            .content {
+                margin-bottom: 127px;
+                height: 490px;
+                display: flex;
+                justify-content: space-between;
+                &.last {
+                    margin-bottom: 103px;
+                }
+                &.ui-bg-pink {
+                    .line {
+                        margin: 55px 0 98px 72px;
+                    }
+                    pre {
+                        margin-left: 72px;
+                    }
+                }
+                &.ui-bg-gray {
+                    .line {
+                        margin: 55px 0 70px 125px;
+                    }
+                    pre {
+                        margin-left: 125px;
+                    }
+                }
+                &.ui-bg-light-green {
+                    pre {
+                        margin: 224px 0 0 55px;
+                    }
+                }
+                pre {
+                    white-space: pre-line;
+                    letter-spacing: 0;
+                    font-family: FangSong;
+                    font-size: 19.08px;
+                    line-height: 38.16px;
+                    font-weight: 700;
+                }
+                img {
+                    height: 490px;
+                }
+                .content-txt {
+                    flex: 1;
+                }
+            }
+        }
+        .company-summary {
+            transform: translateX(100%);
+            &.active {
+                opacity: 1;
+                transform: translateX(0%);
+                max-height: 10000px;
+            }
+            pre {
+                white-space: pre-line;
+                letter-spacing: 0;
+                font-family: FangSong;
+                font-size: 23px;
+                line-height: 36px;
+                color: #666666;
+            }
+            .item {
+                display: flex;
+                border: 1px solid #222222;
+                &.company {
+                    margin-bottom: 65px;
+                    border-color: #515151;
+                    img {
+                        height: 658.5px;
+                    }
+                    .content {
+                        padding-top: 62px;
+                        .line {
+                            margin: 38px 0 70px;
+                        }
+                    }
+                }
+                &.strength {
+                    img {
+                        height: 658px;
+                    }
+                    .content {
+                        padding-top: 70px;
+                        .line {
+                            margin: 35px 0 170px;
+                        }
+                    }
+                }
+                .content {
+                    flex: 1;
+                    padding-left: 80px;
+                    .title {
+                        font-family: eg_number;
+                        font-size:  47.12px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,427 @@
+@import "../../../assets/css/reset.css";
+@import "../../../assets/css/common";
+.brand {
+    height: 723px;
+    margin-bottom: 124px;
+    position: relative;
+    max-width: 1920px;
+    overflow: hidden;
+    min-width: 1570px;
+    &>img {
+        margin-top: -220px;
+    }
+    .banner-txt {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        padding: 0 50px;
+        top: 200px;
+    }
+    .brand-txt {
+        color: white;
+        .english {
+            font-family: eg_number;
+            font-size: 73.58px;
+        }
+        .chinese {
+            font-family: FangSong;
+            font-size: 32.86px;
+        }
+    }
+}
+.introduce-btns {
+    width: 675px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    .btn {
+        height: 54px;
+        width: 203px;
+        line-height: 54px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 35px;
+        color: #040000;
+        &.active {
+            line-height: 50px;
+            border-radius: 27px;
+            border: 2px solid #539595;
+        }
+        img {
+            vertical-align: text-bottom;
+        }
+    }
+}
+.news {
+    padding: 0 50px;
+    .ma {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 120px;
+        .news-type {
+            width: 365px;
+            .h3 {
+                margin-bottom: 5px;
+                text-align: center;
+            }
+            .content {
+                &.list {
+                    margin-bottom: 80px;
+                    background: rgba(83,149,149,0.2);
+                    text-align: center;
+                    height: 390px;
+                    ul {
+                        padding-top: 71px;
+                        li {
+                            width: 146px;
+                            height: 38px;
+                            line-height: 38px;
+                            margin: 0 auto 55px;
+                            font-size: 24px;
+                            color: #666767;
+                            cursor: pointer;
+                            font-family: FangSong;
+                            &.active {
+                                border-radius: 1000px;
+                                line-height: 34px;
+                                border: 2px solid #539595;
+                            }
+                        }
+                    }
+                }
+                .common-show-img {
+                    height: 465px;
+                    .news-png {
+                        position: absolute;
+                        left: 90px;
+                        top: 350px;
+                        z-index:2;
+                        width: 194px;
+                    }
+                }
+            }
+        }
+        .news-list {
+            width: 1050px;
+            margin-top: -8px;
+            h2 {
+                color: #539494;
+                margin-bottom: 75px;
+                text-align: center;
+                font-weight: normal;
+                height: 65px;
+                span {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                .english {
+                    font-size: 59.91px;
+                    line-height: 65px;
+                    margin-right: 65px;
+                    font-family: eg_number;
+                }
+                .chinese {
+                    font-family: FangSong;
+                    font-size: 52.52px;
+                }
+            }
+            .list {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 149px;
+                li {
+                    margin-right: 20px;
+                    margin-bottom: 14px;
+                    &:nth-child(2n) {
+                        margin-right: 0;
+                    }
+                    .item {
+                        width: 515px;
+                        height: 237px;
+                        display: flex;
+                        border: 1px solid #539494;
+                        .img {
+                            width: 308px;
+                            height: 100%;
+                            background: #539494;
+                            overflow: hidden;
+                            position: relative;
+                            z-index: 2;
+                            img {
+                                position: absolute;
+                                &.item-img1 {
+                                    left: -30px;
+                                }
+                                &.item-img2 {
+                                    top: -10px;
+                                    left: -10px;
+                                }
+                                &.item-img3 {
+                                    left: -160px;
+                                }
+                                &.item-img4 {
+                                    top: -10px;
+                                    left: -13px;
+                                }
+                                &.item-img5 {
+                                    left: -50px;
+                                }
+                                &.item-img6 {
+                                    left: -10px;
+                                }
+                                &.item-img7 {
+                                    left: -45px;
+                                }
+                                &.item-img8 {
+                                    left: -390px;
+                                }
+                            }
+                        }
+                        .text-center {
+                            flex: 1;
+                            padding-left: 9px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            p {
+                                font-size: 18px;
+                                line-height: 30px;
+                                font-weight: 700;
+                                text-align: left;
+                                font-family: FangSong;
+                            }
+                        }
+                    }
+                }
+            }
+            .requires {
+                text-align: center;
+                .title {
+                    margin-bottom: 55px;
+                    .english {
+                        color: #539494;
+                        font-size:45.7px;
+                        font-family: eg_number;
+                    }
+                }
+                .claims {
+                    height: 592px;
+                    font-family: FangSong;
+                    position: relative;
+                    img {
+                        width: 169px;
+                    }
+                    .icon-title {
+                        margin: 18px 0 17px;
+                        font-size: 33.88px;
+                        color: #529191;
+                    }
+                    .icon-summary {
+                        font-size: 21.3px;
+                        color: #3E3A39;
+                        line-height: 33.88px;
+                    }
+                    .flex {
+                        display: flex;
+                        justify-content: space-between;
+                        &.flex2 {
+                            margin: 0 auto;
+                            margin-top: -20px;
+                            max-width: 820px;
+                        }
+                    }
+                }
+            }
+            .cooperation-form {
+                margin-top: 156px;
+
+                .line {
+                    margin: 47px auto 45px;
+                    width: 130px;
+                    background: #539595;
+                    height: 1px;
+                }
+                .cost {
+                    display: block;
+                    margin: 0 auto 22px;
+                }
+                .cost-summary {
+                    max-width: 890px;
+                    margin: 0 auto 115px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+                .form-item {
+                    &.form2 {
+                        margin-top: 90px;
+                    }
+                    .item-header {
+                        text-align: center;
+                        .header-icon, .header {
+                            display: inline-block;
+                            vertical-align: bottom;
+                        }
+                        .header-title {
+                            width: 256px;
+                            height: 62px;
+                            margin: 0 auto;
+                            border: 3px solid #539595;
+                            border-radius: 1000px;
+                            text-align: center;
+                            line-height: 60px;
+                            img {
+                                vertical-align: middle;
+                            }
+                        }
+                        .header-summary {
+                            font-family: FangSong;
+                            font-size: 15px;
+                            line-height: 17px;
+                            font-weight: 700;
+                        }
+                    }
+                    .item-form {
+                        margin-top: 39px;
+                        .form-tr {
+                            min-height: 55px;
+                            display: flex;
+                            border-bottom: 2px solid #D8D6D6;
+                            font-size: 25px;
+                            font-family: FangSong;
+                            &.top {
+                                border-top: 2px solid #D8D6D6;
+                            }
+                            &.form-header {
+                                background: rgba(113,153,154,0.5);
+                                justify-content: center;
+                                align-items: center;
+                                border-top: 2px solid #D8D6D6;
+                            }
+                            .td {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border-right: 2px solid #D8D6D6;
+                            }
+                            .form-td-title {
+                                width: 284px;
+                                background: rgba(113,153,154,0.2);
+                                border-left: 2px solid #D8D6D6;
+                            }
+                            .form-td-content {
+                                flex: 1;
+                                &.cells {
+                                    display: flex;
+                                    justify-content: center;
+                                }
+                                .cell {
+                                    width: 25%;
+                                    line-height: 52px;
+                                    text-align: center;
+                                    border-right: 2px solid #D8D6D6;
+                                }
+                                .summary {
+                                    padding: 22px 0;
+                                    text-align: center;
+                                    line-height: 36px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .before {
+                margin: 65px 0 155px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .before-item {
+                    width: 210px;
+                    height: 210px;
+                    border-radius: 50%;
+                    border: 5px solid #539595;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    p {
+                        color: #2d2d2d;
+                        font-family: FangSong;
+                        font-size: 18.49px;
+                        line-height: 25.59px;
+                    }
+                }
+                img {
+                    width: 20px;
+                    height: 31px;
+                }
+            }
+            .after {
+                .after-title {
+                    margin: 65px 0 47px;
+                    text-align: center;
+                    font-family: FangSong;
+                    font-size: 58.41px;
+                    line-height: 60px;
+                    position: relative;
+                    &.start {
+                        margin-top: 44px;
+                    }
+                    &.middle {
+                        img {
+                            right: 115px;
+                            position: absolute;
+                            top: 25px;
+                        }
+                    }
+                    &.end {
+                        img {
+                            left: 115px;
+                            position: absolute;
+                            top: 25px;
+                        }
+                    }
+                }
+                .after-items {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .after-item {
+                        width: 275.887px;
+                        height: 286.377px;
+                        border-radius: 41.5px;
+                        background: rgba(83,149,149,0.2);
+                    }
+                    img {
+                        width: 21px;
+                        height: 33px;
+                    }
+                    .item-title {
+                        margin: 25px auto 20px;
+                        text-align: center;
+                        width: 231.481px;
+                        height:61.576px;
+                        background: rgba(83,149,149,1);
+                        border-radius: 10000px;
+                        line-height: 61.576px;
+                        font-family: FangSong;
+                        font-size: 36.71px;
+                        color: #fff;
+                    }
+                    .item-content {
+                        width: 231.481px;
+                        margin: 0 auto;
+                        font-family: FangSong;
+                        font-size: 21px;
+                        line-height: 35.5px;
+                        color: #3E3A39;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}

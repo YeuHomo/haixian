@@ -1,0 +1,54 @@
+.nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    background: #539494;
+    min-height: 105px;
+    overflow: hidden;
+    z-index: 2000;
+    padding: 0 50px;
+    .ma {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-router {
+        color: white;
+        li {
+            float: left;
+            margin-right: 18px;
+            display: flex;
+            height: 105px;
+            align-items: center;
+            font-size: 15px;
+            .nav-link {
+                line-height: 15px;
+                cursor: pointer;
+                padding: 5px 14px;
+                &.active {
+                    border: 1px solid #fff;
+                    border-radius: 10000px;
+                }
+            }
+            .cooperation-tips {
+                text-align: center;
+                font-family: FangSong;
+                img {
+                    vertical-align: middle;
+                }
+            }
+            .phone {
+                margin-top: 5px;
+                font-size: 18.65px;
+                text-align: center;
+                font-family: eg_number;
+            }
+        }
+    }
+}

@@ -1,0 +1,135 @@
+.bottom {
+    background: #539494;
+    min-height: 325px;
+    padding: 40px 50px 0;
+    min-width: 1570px;
+    .flex {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        .phone {
+            width: 420px;
+            .mobile {
+                font-size: 41.14px;
+                font-family: FangSong;
+                img {
+                    vertical-align: middle;
+                }
+                span {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-left: -4px;
+                }
+                .number {
+                    margin-top: 16px;
+                    font-size: 52.86px;
+                    font-family: eg_number;
+                }
+            }
+            .address {
+                font-family: FangSong;
+                margin-top: 45px;
+                font-size: 20px;
+                line-height: 30px;
+                color: #E4E4E4;
+            }
+        }
+        .message {
+            width: 305px;
+            .tips {
+                text-align: center;
+                font-size: 41.14px;
+                span {
+                    margin: 0 20px;
+                    font-family: FangSong;
+                }
+            }
+            .form {
+                margin-top: 25px;
+                margin-bottom: 30px;
+                border: 1px solid #fff;
+                border-radius: 5px;
+                input {
+                    width: 100%;
+                    height: 40px;
+                    padding-left: 10px;
+                    color: white;
+                    border: none;
+                    border-bottom: 1px solid #ffffff;
+                    background: transparent;
+                    font-family: FangSong;
+                    &::placeholder {
+                        color: white;
+                    }
+                    &:last-child {
+                        border: none;
+                    }
+                }
+            }
+            .sub {
+                width: 165px;
+                margin: 0 auto;
+                height: 34px;
+                line-height: 30px;
+                border-radius: 17px;
+                font-size: 22.47px;
+                color: white;
+                text-align: center;
+                border: 1px solid #fff;
+                cursor: pointer;
+                font-family: FangSong;
+            }
+        }
+        .link {
+            color: #F0EFEF;
+            font-family: FangSong;
+            h5 {
+                margin-bottom: 18px;
+                font-size: 28.46px;
+                text-align: right;
+            }
+            p {
+                text-align: right;
+                margin-bottom: 90px;
+                font-size: 20px;
+            }
+            a {
+                text-decoration: none;
+                color: #F0EFEF;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            small {
+                margin-bottom: 12px;
+                display: block;
+                text-align: right;
+                font-size: 20px;
+                color: #F0EFEF;
+            }
+            .other-btn {
+                display: flex;
+                justify-content: space-between;
+                .middle {
+                    margin: 0 28px;
+                }
+                .ewm {
+                    display: none;
+                    right: 50%;
+                    position: absolute;
+                    bottom: 100px;
+                    transform: translateX(50%);
+                    &.active {
+                        display: block;
+                    }
+                    &:hover {
+                        display: block;
+                    }
+                }
+                .wechat {
+                    position: relative;
+                }
+            }
+        }
+    }
+}

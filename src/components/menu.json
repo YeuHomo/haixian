@@ -1,0 +1,186 @@
+{
+    "stew_noodle": {
+        "name": "焖面系列",
+        "title": "焖 / 面 / 系 / 列",
+        "summary_top": "当海鲜遇到劲道爽滑的面，小火焖制3分钟，每根面条都充分吸收充满海鲜的汤汁。",
+        "summary_bottom": "配上独门秘制的海鲜酱汁，更能激发海鲜本身的鲜味。",
+        "children": {
+            "garlic_sixty": {
+                "taste": [],
+                "name": "蒜蓉花甲焖面",
+                "summary": ["产自胶州湾红岛无污染优质海域的花甲", "经过特质酱汁的调解，海鲜味更浓郁", "海鲜与面条的完美融合", "优异的口感与鲜美的食材令食客们久久不能忘怀"],
+                "material": ["sixty", "chinese_noodle", "seasonal_vegetable"]
+            },
+            "scallop": {
+                "taste": [],
+                "name": "扇贝焖面",
+                "summary": ["产自大连獐子岛的扇贝", "经过特质酱汁的调解，海鲜味更浓郁", "海鲜与面条的完美融合", "优异的口感与鲜美的食材令食客们久久不能忘怀"],
+                "material": ["scallop", "chinese_noodle", "seasonal_vegetable"]
+            },
+            "shrimp": {
+                "taste": [],
+                "name": "基围虾焖面",
+                "summary": ["产自青岛的基围虾", "经过特质酱汁的调解，海鲜味更浓郁", "海鲜与面条的完美融合", "优异的口感与鲜美的食材令食客们久久不能忘怀"],
+                "material": ["shrimp", "chinese_noodle", "seasonal_vegetable"]
+            },
+            "sixty_lingbo": {
+                "taste": [],
+                "name": "花甲凌波焖面",
+                "summary": ["当花甲与嫩滑的凌波鱼相遇", "经过特质酱汁的调解，海鲜味更浓郁", "海鲜与面条的完美融合", "优异的口感与鲜美的食材令食客们久久不能忘怀"],
+                "material": ["sixty&lingbo", "chinese_noodle", "seasonal_vegetable"]
+            },
+            "meet_love": {
+                "taste": [],
+                "name": "遇见真爱",
+                "summary": ["当花甲与基围虾相遇，爱恨纠缠", "经过特质酱汁的调解，海鲜味更浓郁", "海鲜与面条的完美融合", "优异的口感与鲜美的食材令食客们久久不能忘怀"],
+                "material": ["sixty&shrimp", "chinese_noodle", "seasonal_vegetable"]
+            },
+            "numerous_underlings": {
+                "taste": [],
+                "name": "虾兵蟹将",
+                "summary": ["当海洋霸主相遇，在味道的层次上丝毫不相让", "经过特质酱汁的调解，海鲜味更浓郁", "海鲜与面条的完美融合", "优异的口感与鲜美的食材令食客们久久不能忘怀"],
+                "material": ["sixty&crab_legs", "chinese_noodle", "seasonal_vegetable"]
+            },
+            "seafood_item": {
+                "taste": [],
+                "name": "海鲜旗舰队",
+                "summary": ["怎样的海鲜料才能让食客们癫狂", "当然是一整只海鲜旗舰队出动啦", "经过特质酱汁的调解，海鲜味更浓郁", "海鲜与面条的完美融合", "优异的口感与鲜美的食材令食客们久久不能忘怀"],
+                "material": ["seafood", "chinese_noodle", "seasonal_vegetable"]
+            }
+        }
+    },
+    "stew_rice": {
+        "name": "烩饭系列",
+        "title": "烩 / 饭 / 系 / 列",
+        "summary_top": "采用颗粒饱满的东北大米。当新鲜海鲜与充满酱汁的大米会碰撞出怎样的口感？",
+        "summary_bottom": "质朴而不失西式口感的一份烩饭，想必会勾起您久违的好胃口。",
+        "children": {
+            "squid_rice": {
+                "taste": ["seafood", "tomato", "curry"],
+                "name": "炒你鱿鱼饭",
+                "summary": ["脆爽弹牙的鱿鱼与圆润的大米", "在多款酱汁的调味下，食材与酱料碰撞出的火花令人回味无穷", "丰富而不失质朴的西式口感", "想必会令食客们久久不能忘怀"],
+                "material": ["squid", "rice", "seasonal_vegetable"]
+            },
+            "lingbo_rice": {
+                "taste": ["seafood", "tomato", "curry"],
+                "name": "凌波鱼烩饭",
+                "summary": ["柔嫩爽滑的凌波鱼与圆润的大米", "在多款酱汁的调味下，食材与酱料碰撞出的火花令人回味无穷", "丰富而不失质朴的西式口感", "想必会令食客们久久不能忘怀"],
+                "material": ["lingbo", "rice", "seasonal_vegetable"]
+            },
+            "scallop_rice": {
+                "taste": ["seafood", "tomato", "curry"],
+                "name": "一份扇贝饭",
+                "summary": ["肉质鲜美的扇贝与圆润的大米", "在多款酱汁的调味下，食材与酱料碰撞出的火花令人回味无穷", "丰富而不失质朴的西式口感", "想必会令食客们久久不能忘怀"],
+                "material": ["scallop", "rice", "seasonal_vegetable"]
+            },
+            "shrimp_rice": {
+                "taste": ["seafood", "tomato", "curry"],
+                "name": "虾虾侬烩饭",
+                "summary": ["肉质Q弹的基围虾与圆润的大米", "在多款酱汁的调味下，食材与酱料碰撞出的火花令人回味无穷", "丰富而不失质朴的西式口感", "想必会令食客们久久不能忘怀"],
+                "material": ["shrimp", "rice", "seasonal_vegetable"]
+            },
+            "malisu_rice": {
+                "taste": ["seafood", "tomato", "curry"],
+                "name": "马里苏海鲜烩饭",
+                "summary": ["当扇贝与鱿鱼遇上掘强的东北大米", "在多款酱汁的调味下，食材与酱料碰撞出的火花令人回味无穷", "令人回味无穷。富而不失质朴的西式口感", "想必会令食客们久久不能忘怀"],
+                "material": ["scallop&squid", "rice", "seasonal_vegetable"]
+            },
+            "hot_rice": {
+                "taste": ["seafood", "tomato", "curry"],
+                "name": "人气海鲜烩饭",
+                "summary": ["海域人气海鲜与圆润的东北大米", "在多款酱汁的调味下，食材与酱料碰撞出的火花令人回味无穷", "令人回味无穷。富而不失质朴的西式口感", "想必会令食客们久久不能忘怀"],
+                "material": ["lingbo&shrimp", "chinese_noodle", "seasonal_vegetable"]
+            },
+            "seafood_rice": {
+                "taste": ["seafood", "tomato", "curry"],
+                "name": "海鲜总动员",
+                "summary": ["怎样的海鲜料才能让食客们癫狂", "当然是海鲜全部出动啦", "在多款酱汁的调味下，食材与酱料碰撞出的火花令人回味无穷", "富而不失质朴的西式口感", "想必会令食客们久久不能忘怀"],
+                "material": ["seafood", "rice", "seasonal_vegetable"]
+            }
+        }
+    },
+    "stew_rice_noodle": {
+        "name": "米线系列",
+        "title": "米 / 线 / 系 / 列",
+        "summary_top": "选用100%优质大米为原料，米香纯正，外观晶莹洁白，口感细腻爽滑而富有弹性。",
+        "summary_bottom": "无论是酸辣可口的金汤，麻辣鲜香的火锅味，亦是浓郁鲜美的番茄味，多种口味总有一款适合你。",
+        "children": {
+            "sixty_rice_noodle": {
+                "taste": ["jintang", "hot_pot", "tomato"],
+                "name": "花甲米线",
+                "summary": ["6小时文火慢炖，102度高标准火温控制", "使得汤底更加浓厚混成", "而海鲜见面独门的烹饪绝技", "使得海鲜更能吸尽汤底精华", "遇上纯正云南米线，这个吃法够味儿"],
+                "material": ["sixty", "rice_noodle", "seasonal_vegetable"]
+            },
+            "lingbo_rice_noodle": {
+                "taste": ["jintang", "hot_pot", "tomato"],
+                "name": "秘制凌波鱼米线",
+                "summary": ["6小时文火慢炖，102度高标准火温控制", "使得汤底更加浓厚混成", "而海鲜见面独门的烹饪绝技", "使得海鲜更能吸尽汤底精华", "遇上纯正云南米线，这个吃法够味儿"],
+                "material": ["lingbo", "rice_noodle", "seasonal_vegetable"]
+            },
+            "squid_rice_noodle": {
+                "taste": ["jintang", "hot_pot", "tomato"],
+                "name": "鱿鱼米线",
+                "summary": ["6小时文火慢炖，102度高标准火温控制", "使得汤底更加浓厚混成", "而海鲜见面独门的烹饪绝技", "使得海鲜更能吸尽汤底精华", "遇上纯正云南米线，这个吃法够味儿"],
+                "material": ["squid", "rice_noodle", "seasonal_vegetable"]
+            },
+            "scallop_rice_noodle": {
+                "taste": ["jintang", "hot_pot", "tomato"],
+                "name": "浓香扇贝米线",
+                "summary": ["6小时文火慢炖，102度高标准火温控制", "使得汤底更加浓厚混成", "而海鲜见面独门的烹饪绝技", "使得海鲜更能吸尽汤底精华", "遇上纯正云南米线，这个吃法够味儿"],
+                "material": ["scallop", "rice_noodle", "seasonal_vegetable"]
+            },
+            "tese_rice_noodle": {
+                "taste": ["jintang", "hot_pot", "tomato"],
+                "name": "特色海鲜米线",
+                "summary": ["6小时文火慢炖，102度高标准火温控制", "使得汤底更加浓厚混成", "而海鲜见面独门的烹饪绝技", "使得海鲜更能吸尽汤底精华", "遇上纯正云南米线，这个吃法够味儿"],
+                "material": ["lingbo&sixty", "rice_noodle", "seasonal_vegetable"]
+            },
+            "crab_legs_rice_noodle": {
+                "taste": ["jintang", "hot_pot", "tomato"],
+                "name": "蟹老板的礼物",
+                "summary": ["6小时文火慢炖，102度高标准火温控制", "使得汤底更加浓厚混成", "而海鲜见面独门的烹饪绝技", "使得海鲜更能吸尽汤底精华", "遇上纯正云南米线，这个吃法够味儿"],
+                "material": ["crab_legs&lingbo", "rice_noodle", "seasonal_vegetable"]
+            },
+            "seafood_rice_noodle": {
+                "taste": ["jintang", "hot_pot", "tomato"],
+                "name": "海鲜水族馆",
+                "summary": ["6小时文火慢炖，102度高标准火温控制", "使得汤底更加浓厚混成", "而海鲜见面独门的烹饪绝技", "使得海鲜更能吸尽汤底精华", "遇上纯正云南米线，这个吃法够味儿"],
+                "material": ["seafood", "rice_noodle", "seasonal_vegetable"]
+            }
+        }
+    },
+    "fruit_juice": {
+        "name": "靓趣果饮",
+        "title": "靓 / 趣 / 果 / 饮",
+        "summary_top": "有什么比吃吃喝喝更舒爽的事情。海鲜见面专属靓趣果饮&暖心特饮，不分四季挑逗你的胃。",
+        "summary_bottom": "",
+        "children": {
+            "grapefruit": {
+                "taste": [],
+                "name": "清新西柚 ",
+                "summary": ["西柚酸甜微苦，富含多种维生素", "鲜红诱人的西柚果肉在杯中翻腾", "舞娘纵不过如此"],
+                "material": []
+            },
+            "lemon": {
+                "taste": [],
+                "name": "青柠果漾 ",
+                "summary": ["酸爽十足的金桔与柠檬一起揉捏出原汁", "金桔果肉充斥于果饮之间", "宛如夏日般酸爽激进"],
+                "material": []
+            }
+        }
+    },
+    "tea&milk": {
+        "name": "暖心特饮",
+        "title": "暖 / 心 / 特 / 饮",
+        "summary_top": "有什么比吃吃喝喝更舒爽的事情。",
+        "summary_bottom": "海鲜见面专属靓趣果饮&暖心特饮，不分四季挑逗你的胃。",
+        "children": {
+            "latte": {
+                "taste": [],
+                "name": "椰子拿铁",
+                "summary": ["冬季特调暖心饮品", "海湾鲜味十足的海岛椰汁与拿铁融合", "不失咖啡香味更具海湾风情"],
+                "material": []
+            }
+        }
+    }
+}

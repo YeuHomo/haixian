@@ -1,0 +1,188 @@
+@import "../../../assets/css/reset.css";
+@import "../../../assets/css/common";
+.brand {
+    height:723px;
+    margin-bottom: 124px;
+    position: relative;
+    max-width: 1920px;
+    overflow: hidden;
+    min-width: 1570px;
+    .banner-txt {
+        position: absolute;
+        z-index: 1;
+        top: 99px;
+        width: 100%;
+        padding: 0 50px;
+        top: 200px;
+    }
+    .brand-txt {
+        color: white;
+        .english {
+            font-family: eg_number;
+            font-size: 73.58px;
+        }
+        .chinese {
+            font-family: FangSong;
+            font-size: 32.86px;
+        }
+    }
+}
+.news {
+    padding: 0 50px;
+    .ma {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 120px;
+        .news-type {
+            width: 365px;
+            .h3 {
+                margin-bottom: 5px;
+                text-align: center;
+            }
+            .content {
+                &.list {
+                    margin-bottom: 80px;
+                    background: rgba(83,149,149,0.2);
+                    text-align: center;
+                    height: 390px;
+                    ul {
+                        padding-top: 88px;
+                        li {
+                            width: 146px;
+                            height: 38px;
+                            line-height: 38px;
+                            margin: 0 auto 55px;
+                            font-size: 24px;
+                            color: #666767;
+                            cursor: pointer;
+                            font-family: FangSong;
+                            &.active {
+                                border-radius: 1000px;
+                                line-height: 34px;
+                                border: 2px solid #539595;
+                            }
+                        }
+                    }
+                }
+                .common-show-img {
+                    height: 465px;
+                    .news-png {
+                        position: absolute;
+                        left: 90px;
+                        top: 350px;
+                        z-index:2;
+                        width: 194px;
+                    }
+                }
+            }
+        }
+        .news-list {
+            width: 1050px;
+            margin-top: -10px;
+            h2 {
+                color: #539494;
+                margin-bottom: 84px;
+                text-align: center;
+                font-weight: normal;
+                height: 80px;
+                span {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                .english {
+                    font-size: 73.58px;
+                    line-height: 80px;
+                    margin-right: 54px;
+                    font-family: eg_number;
+                }
+                .chinese {
+                    vertical-align: middle;
+                }
+            }
+            .list {
+                display: flex;
+                flex-wrap: wrap;
+                li {
+                    margin-right: 29px;
+                    margin-bottom: 72px;
+                    &:nth-child(3n) {
+                        margin-right: 0;
+                    }
+                    .item {
+                        width: 330px;
+                        height: 324px;
+                        background: #F4F4F4;
+                        .img {
+                            height: 215px;
+                            background: #539494;
+                        }
+                        .title {
+                            padding-top: 15px;
+                            text-align: center;
+                            font-size: 19px;
+                            font-family: FangSong;
+                            color: #666767;
+                            .green {
+                                color: #0D9594;
+                            }
+                        }
+                        .line {
+                            width: 78px;
+                            height: 1px;
+                            background: #7A7A77;
+                            margin: 30px auto 10px;
+                        }
+                        .date {
+                            font-family: WyueFangSong;
+                            font-size: 20px;
+                            color: #7A7A77;
+                        }
+                    }
+                }
+            }
+            .pagination {
+                max-width: 755px;
+                margin: 0 auto;
+                .page {
+                    max-width: 400px;
+                    margin: 0 auto;
+                }
+                .li {
+                    cursor: pointer;
+                    margin-right: 30px;
+                    &.left {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                    }
+                    &.right {
+                        top: 0;
+                        right: 0;
+                        position: absolute;
+                    }
+                    &.active {
+                        span {
+                            background: #539595;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1430px){
+    .news {
+        .news-list {
+            .list {
+                li {
+                    &:nth-child(2n) {
+                        margin-right: 0;
+                    }
+                    &:nth-child(3n) {
+                        margin-right: 29px;
+                    }
+                }
+            }
+        }
+    }
+}
